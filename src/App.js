@@ -19,7 +19,7 @@ function App() {
   async function handleAddRepository() {
      const response = await api.post('/repositories', {
       title: `Repositório - ${Date.now()}`,
-      url: "https://github.com/Rocketseat/umbriel",
+      url: "https://github.com/AlessandroBorges41/conceitos-do-reactjs",
       techs: ["Node", "Express", "TypeScript"]
      });
 
